@@ -3,6 +3,8 @@
 
 #include "odejmowanie.h"
 #include "mnozenie.h"
+#include "dodawanie.h"
+#include "dzielenie.h"
 
 float main()
 {

@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+#include <odejmowanie.h>
+
 float main()
 {
     float a, b;
@@ -8,6 +10,7 @@ float main()
     scanf(" &f", a);
     puts("Podaj 2 liczbe");
     scanf(" &f", b);
+    
     return 0;
 }
 

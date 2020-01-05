@@ -1,4 +1,4 @@
-void odejmowanie(int a, int b)
+void odejmowanie(float a, float b)
 {
-    printf("%d", a-b);
+    printf("%f", a-b);
 }

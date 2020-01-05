@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include <odejmowanie.h>
-#include <mnozenie.h>
+#include "odejmowanie.h"
+#include "mnozenie.h"
 
 float main()
 {

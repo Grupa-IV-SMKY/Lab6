@@ -1,5 +1,3 @@
-#ifndef DZIELENIE_INCLUDED
-#define DZIELENIE_INCLUDED
 
 void dziel(float a,float b)
 {
@@ -12,4 +10,3 @@ void dziel(float a,float b)
     }
 }
 
-#endif // DZIELENIE_INCLUDED

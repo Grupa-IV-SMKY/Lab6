@@ -11,7 +11,7 @@ float main()
     puts("Podaj 2 liczbe");
     scanf(" &f", b);
     printf("Co chcesz zrobić? \n");
-    printf("(dodawanie-1 | odejmowanie-2 | mnozenie-3 | dzielenie-4");
+    printf("(dodawanie-'+' | odejmowanie-'-' | mnozenie-'*' | dzielenie-'/'");
  return 0;
 }
 

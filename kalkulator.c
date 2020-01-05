@@ -2,20 +2,26 @@
 #include <stdlib.h>
 
 #include <odejmowanie.h>
+#include <mnozenie.h>
 
 float main()
 {
     float a, b;
-    int op;
+    char znak;
     puts("Podaj 1 liczbe");
-    scanf(" &f", a);
+    scanf(" %f", &a);
     puts("Podaj 2 liczbe");
-    scanf(" &f", b);
-    printf("Co chcesz zrobic?\n");
+    scanf(" %f", &b);
+    printf("Co chcesz zrobić? \n");
     printf("(dodawanie-'+' | odejmowanie-'-' | mnozenie-'*' | dzielenie-'/'");
-    scanf("%d",&op);
-    if(op==1)
+    scanf(" %c", &znak);
+    switch (znak)
     {
+	case '+': dodawanie(a,b);break;
+	case '-': odejmowanie(a,b);break;
+	case '*': mnozenie(a,b);break;
+	case '/': dzielenie(a,b);break;
+	default: puts("To nie jest poprawny znak");break;
     }
  return 0;
 }

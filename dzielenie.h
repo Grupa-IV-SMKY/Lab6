@@ -1,5 +1,5 @@
 
-void dziel(float a,float b)
+void dzielenie(float a,float b)
 {
     if(b==0)
     {
